@@ -1,0 +1,48 @@
+body {
+    background-color: #2B7A78;
+}
+
+.intro-text {
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    font-weight: bolder;
+}
+
+.calculator {
+    background-color: #3aafa9;
+    padding: 5%;
+    /* Makes it so the content are not "flex inline" so they do not 
+    appear on the same line*/
+    /* display: flex; */
+    /* position: relative; */
+    /* Pushes the content to the middel from the left */
+    justify-content: center;
+    /* Pushes the content to the middel from the top */
+    align-items: center;
+}
+
+.screen {
+    width: 20%;
+    background-color: #0B0C10;
+    color: #FFFFFF;
+    padding: 1%;
+    font-size: 200%;
+    /* Makes the text be at the end instead of the start */
+    text-align: end;
+}
+
+.buttons {
+    width: 10%;
+}
+
+button {
+    background-color: #1F2833;
+    border: none;
+    color: #FFFFFF;
+    font-size: 200%;
+    border-radius: 25px;
+    margin: 1%;
+    width: 20%;
+}
