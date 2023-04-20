@@ -15,7 +15,7 @@ body {
     padding: 5%;
     /* Makes it so the content are not "flex inline" so they do not 
     appear on the same line*/
-    /* display: flex; */
+    display: flex;
     /* position: relative; */
     /* Pushes the content to the middel from the left */
     justify-content: center;
@@ -34,7 +34,7 @@ body {
 }
 
 .buttons {
-    width: 10%;
+    width: 30%;
 }
 
 button {
